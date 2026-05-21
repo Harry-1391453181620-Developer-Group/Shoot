@@ -20,7 +20,7 @@
 #define ENEMY_BULLET_SPEED 8
 #define MAX_ENEMY_BULLETS 64
 const char* HIGH_SCORE_FILE = "highscore.dat";
-// WELCOME TO SHOOT'S MAIN CODE! EXPLORE AND HAVE FUN!
+// WELCOME TO SHOOT'S MAIN CODE! EXPLORE AND HAVE FUN! HEEHEEHEE
 // 全局变量
 HINSTANCE hInst;                                // 当前实例
 WCHAR szTitle[MAX_LOADSTRING];                  // 标题栏文本
