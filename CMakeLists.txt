@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 
-project(Shoot_Game)
+project(Shoot)
 
 set(CMAKE_CXX_STANDARD 26)
 
@@ -8,19 +8,19 @@ find_package(SDL2 REQUIRED)
 
 
 add_executable(
-        Shoot_Game
+        Shoot
         Shoot.cpp
 )
 
 
 target_include_directories(
-        Shoot_Game
+        Shoot
         PRIVATE
         ${SDL2_INCLUDE_DIRS}
 )
 
 
 target_link_libraries(
-        Shoot_Game
+        Shoot
         ${SDL2_LIBRARIES}
 )
