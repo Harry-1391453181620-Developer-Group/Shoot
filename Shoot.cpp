@@ -1,4 +1,7 @@
-﻿#include <SDL2/SDL.h>
+//
+// Created by Lenovo on 2026/8/6.
+//
+#include <SDL2/SDL.h>
 
 #include <iostream>
 #include <fstream>
@@ -420,7 +423,6 @@ int main()
 
     return 0;
 }
-
 void InitGame()
 {
 
